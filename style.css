@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    background-color: #000016;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.left .name {
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 6px 20px;
+    color: rgb(24, 158, 24);
+    position: relative;
+}
+
+.left .name:hover {
+    cursor: pointer;
+}
+
+.name h4 {
+    margin-left: 25px;
+    font-weight: bold
+}
+
+.name p {
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.name.selected {
+    background-color: green;
+    color: #fff;
+}
+
+i {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 22px;
+    /* transform: translateY(-50%); */
+}
+
+/* Right */
+.right {
+    padding: 20px 30px;
+    background-color: #eee;
+    width: 100%;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 10px solid rgb(24, 158, 24);
+    border-right: 10px solid rgb(24, 158, 24);
+}
+
+.box p {
+
+    font-weight: 600;
+    /* padding: 10px; */
+}
+
+.title {
+    border-bottom: 1px solid rgb(24, 158, 24);
+    padding-bottom: 10px;
+}
+
+.body {
+    padding-top: 10px;
+}
